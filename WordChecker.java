@@ -1,7 +1,11 @@
+import java.util.ArrayList;
 public class WordChecker {
     /** Initialized in the constructor and contains no null elements */
     private ArrayList<String> wordList;
-
+    public WordChecker (ArrayList<String> list)
+    {
+        ArrayList = list
+    }
     /**
      * Returns true if each element of wordList (except the first) contains the
      * previous
