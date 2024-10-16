@@ -14,6 +14,16 @@ public class WordChecker {
      * Postcondition: wordList is unchanged.
      */
     public boolean isWordChain() {
+        public ArrayList<String> wordList2= wordList;
+        if (wordList2.length() < 2) return false;
+        boolean result = false;
+        while (i < wordList2.length()){
+            int x = 0
+            if (searchFor.length() < wordList[1].length()) return false;
+            while (x < (searchfor.length()-wordList2[1].length())){
+
+            }
+        }
         /* to be implemented in part (a) */ }
 
     /**
