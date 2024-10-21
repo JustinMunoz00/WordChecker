@@ -1,10 +1,13 @@
 import java.util.ArrayList;
 public class WordChecker {
-    /** Initialized in the constructor and contains no null elements */
     private ArrayList<String> wordList;
     public WordChecker (ArrayList<String> list)
     {
-        ArrayList = list
+        wordList = list;
+    }
+    public WordChecker ()
+    {
+        wordList = new ArrayList<String>();
     }
     /**
      * Returns true if each element of wordList (except the first) contains the
@@ -14,17 +17,12 @@ public class WordChecker {
      * Postcondition: wordList is unchanged.
      */
     public boolean isWordChain() {
-        public ArrayList<String> wordList2= wordList;
-        if (wordList2.length() < 2) return false;
-        boolean result = false;
-        while (i < wordList2.length()){
-            int x = 0
-            if (searchFor.length() < wordList[1].length()) return false;
-            while (x < (searchfor.length()-wordList2[1].length())){
-
-            }
-        }
-        /* to be implemented in part (a) */ }
+        boolean result;
+        result = true;
+        /* to be implemented in part (a) */ 
+        return result;
+    }
+      
 
     /**
      * Returns an ArrayList<String> based on strings from wordList that start
@@ -37,4 +35,4 @@ public class WordChecker {
      */
     public ArrayList<String> createList(String target) {
         /* to be implemented in part (b) */ }
-}
+    }
