@@ -7,8 +7,10 @@ public class Main{
         words.add("an");
         words.add("band");
         words.add("band");
-        words.add("abandon");
+        words.add("bando");
+        System.out.println(words.get(1));
         WordChecker x = new WordChecker(words);
+        System.out.println(x.isWordChain());
     }
 }
 

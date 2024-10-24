@@ -17,10 +17,13 @@ public class WordChecker {
      * Postcondition: wordList is unchanged.
      */
     public boolean isWordChain() {
-        boolean result;
-        result = true;
+        for (int i = 1; i < wordList.size(); i++){
+            String after = wordList.get(i);
+            String before = wordList.get(i-1);
+            if (after.indexOf(before) < 0) return false;
+        }
+        return true;
         /* to be implemented in part (a) */ 
-        return result;
     }
       
 
@@ -34,5 +37,6 @@ public class WordChecker {
      * wordList.
      */
     public ArrayList<String> createList(String target) {
-        /* to be implemented in part (b) */ }
+        ArrayList<String> list = new ArrayList<String>();
+    }
     }
